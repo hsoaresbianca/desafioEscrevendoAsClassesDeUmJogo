@@ -3,7 +3,7 @@
  let dados = {
 	    nome: "Bia",
         idade: 25,
-        heroiTipoAtaque: {
+        heroiAtaque: {
             0: ["guerreiro", "espada"],
             1: ["mago", "magia"],
             2: ["monge", "artes marciais"],
@@ -12,8 +12,8 @@
 }
 
 function generateInvoice(dados){
-    for(let index in dados.heroiTipoAtaque){
-        let [tipo, ataque] = dados.heroiTipoAtaque[index]
+    for(let index in dados.heroiAtaque){
+        let [tipo, ataque] = dados.heroiAtaque[index]
         console.log(`O ${tipo} atacou usando ${ataque}`)
     }
 }
