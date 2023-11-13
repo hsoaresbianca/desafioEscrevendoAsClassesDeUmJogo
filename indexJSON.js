@@ -1,4 +1,4 @@
-//PROJETO RESOLVIDO UTILIZANDO JSON:
+// PROJETO RESOLVIDO UTILIZANDO JSON:
 
  let dados = {
 	    nome: "Bia",
